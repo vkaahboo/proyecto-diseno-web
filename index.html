@@ -7,27 +7,31 @@
 </head>
 <body>
     
-<header>
+<header class="header">
     <div class="top-bar">
         <div class="top-bar-contact">
-            <p>Phone (414) 857 - 0107</p>
+            <a href="tel:123456789">Phone (414) 857 - 0107</a>
             <a href="mailto:mail@mail.com">mail@mail.com</a>
         </div>
-        <div class="top-bar-social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
+        <nav class="top-bar-social">
+            <ul>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <div class="main-menu">
         <div class="logo">
-            <picture>
-                <source media="(min-width: 768px)"/>
-                <source media="(min-width: 400px)"/>
-                <img class="logo" src="./image/japanese-food.svg" alt="">
-                <h1>Bistro Bliss</h1>
-            </picture>
+            <img class="logo" src="./image/logo-japanese-food.svg" alt="">
+            <h1>Bistro Bliss</h1>
         </div>
         <nav class="menu">
             <ul>
@@ -49,7 +53,7 @@
     </div>
 </header>
 
-<main>
+<main class="main">
     <section class="hero-banner">
         <div class="hero-banner-content">
             <h2 class="hero-banner-title">Best food for your taste</h2>
@@ -222,10 +226,66 @@
             </article>
         </div>
     </section>
-
-
 </main>
-<footer></footer>
+
+<footer class="footer">
+    <div class="footer-info">
+        <div class="footer-info-company">
+            <div class="logo">
+                <img class="logo" src="./image/logo-japanese-food.svg" alt="">
+                <h1>Bistro Bliss</h1>
+                <p class="footer-info-company-desc">In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-info-pages">
+                <h3 class="footer-info-pages-title">Pages</h3>
+                <ul class="footer-info-pages-menu">
+                    <li class="footer-info-pages-menu-item">Home</li>
+                    <li class="footer-info-pages-menu-item">About</li>
+                    <li class="footer-info-pages-menu-item">Menu</li>
+                    <li class="footer-info-pages-menu-item">Princing</li>
+                    <li class="footer-info-pages-menu-item">Blog</li>
+                    <li class="footer-info-pages-menu-item">Contact</li>
+                    <li class="footer-info-pages-menu-item">Delivery</li>
+                </ul>
+            </div>
+            <div class="footer-info-utility">
+                <h3 class="footer-info-utility-title">Utility Pages</h3>
+                <ul class="footer-info-utilitypages-menu">
+                    <li class="footer-info-utility-menu-item">Start Here</li>
+                    <li class="footer-info-utility-menu-item">Styleguide</li>
+                    <li class="footer-info-utility-menu-item">Password Protected</li>
+                    <li class="footer-info-utility-menu-item">404 Not Found</li>
+                    <li class="footer-info-utility-menu-item">Licenses</li>
+                    <li class="footer-info-utility-menu-item">Changelog</li>
+                    <li class="footer-info-utility-menu-item">View More</li>
+                </ul>
+            </div>
+            <div class="footer-info-instagram">
+                <img src="./image/footer-huevo.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-papa.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-papa-cajun.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-pancake.jpg" alt="" class="footer-info-instagram-img">
+            </div>
+            <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
 
 <!-- asi es un comentario en HTML-->
 
