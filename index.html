@@ -10,24 +10,28 @@
 <header class="header">
     <div class="top-bar">
         <div class="top-bar-contact">
-            <p>Phone (414) 857 - 0107</p>
+            <a href="tel:123456789">Phone (414) 857 - 0107</a>
             <a href="mailto:mail@mail.com">mail@mail.com</a>
         </div>
-        <div class="top-bar-social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
+        <nav class="top-bar-social">
+            <ul>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <div class="main-menu">
         <div class="logo">
-            <picture>
-                <source media="(min-width: 768px)"/>
-                <source media="(min-width: 400px)"/>
-                <img class="logo" src="./image/japanese-food.svg" alt="">
-                <h1>Bistro Bliss</h1>
-            </picture>
+            <img class="logo" src="./image/logo-japanese-food.svg" alt="">
+            <h1>Bistro Bliss</h1>
         </div>
         <nav class="menu">
             <ul>
@@ -53,53 +57,53 @@
     <section class="hero-banner">
         <div class="hero-banner-content">
             <h2 class="hero-banner-title">Best food for your taste</h2>
-            <p>Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.
+            <p class="hero-banner-desc">Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.
             </p>
-            <div class="hero-banner-button">
-                <button>Book a Table</button>
-                <button>Explore Menu</button>
+            <div class="hero-banner-buttons">
+                <button class="hero-banner-button">Book a Table</button>
+                <button class="hero-banner-button">Explore Menu</button>
             </div>
         </div>
     </section>
 
     <section class="our-menu">
-        <h3 class="our-menu-title">Browse Our Menu</h3>
+        <h2 class="our-menu-title">Browse Our Menu</h2>
         <div class="our menu-cards">
-            <article>
-               <img src="./image/taza.svg" alt="">
-               <h3>Breakfast</h3>
+            <article class="our-menu-card">
+               <img class="our-menu-card-image" src="./image/taza.svg" alt="">
+               <h3 class="our-menu-card-title">Breakfast</h3>
                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-               <a href="#">Explore Menu</a>
+               <a class="our-menu-card-link" href="#">Explore Menu</a>
             </article>
-            <article>
-                <img src="./image/arroz.svg" alt="">
-                <h3>Main Dishes</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
+            <article class="our-menu-card">
+                <img class="our-menu-card-image" src="./image/arroz.svg" alt="">
+                <h3 class="our-menu-card-title">Main Dishes</h3>
+                <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a class="our-menu-card-link" href="#">Explore Menu</a>
              </article>
-             <article>
-                <img src="./image/arroz.svg" alt="">
-                <h3>Drinks</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
+             <article class="our-menu-card">
+                <img class="our-menu-card-image" src="./image/arroz.svg" alt="">
+                <h3 class="our-menu-card-title">Drinks</h3>
+                <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a class="our-menu-card-link" href="#">Explore Menu</a>
              </article>
-             <article>
-                <img src="./image/postre.svg" alt="">
-                <h3>Desserts</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
+             <article class="our-menu-card">
+                <img class="our-menu-card-image" src="./image/postre.svg" alt="">
+                <h3 class="our-menu-card-title">Desserts</h3>
+                <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a class="our-menu-card-link" href="#">Explore Menu</a>
              </article>
         </div>
     </section>
 
     <section class="about-us">
         <div class="about-us-info">
-            <img src="./image/shawarma.jpg" alt="plato menu">
-            <article>
-                <p>Come and visit us</p>
-                <p>(414) 857 - 0107</p>
-                <p>happytummy@restaurant.com</p>
-                <p>837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</p>
+            <img class="about-us-info-img" src="./image/shawarma.jpg" alt="plato menu">
+            <article class="about-us-info-box">
+                <p class="about-us-info-box-title">Come and visit us</p>
+                <p class="about-us-info-box-phone">(414) 857 - 0107</p>
+                <p class="about-us-info-box-mail">happytummy@restaurant.com</p>
+                <p class="about-us-info-box-address">837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</p>
             </article>
         </div>
         <div class="about-us-text">
@@ -112,36 +116,36 @@
     </section>
 
     <section class="services">
-        <h2>We also offer unique services for your events</h2>
+        <h2 class="services-title">We also offer unique services for your events</h2>
         <div class="services-cards">
             <article class="services-card">
-                <img src="./image/kebab-set-table 1.jpg" alt="">
-                <h3>Caterings</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
+                <img class="services-card-img" src="./image/kebab-set-table 1.jpg" alt="">
+                <h3 class="services-card-title">Caterings</h3>
+                <p class="services-card-desc">In the new era of technology we look in the future with certainty for life.</p>
             </article>
             <article class="services-card">
-                <img src="./image/cumpleanos.jpg" alt="">
-                <h3>Birthdays</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
+                <img class="services-card-img" src="./image/cumpleanos.jpg" alt="">
+                <h3 class="services-card-title">Birthdays</h3>
+                <p class="services-card-desc">In the new era of technology we look in the future with certainty for life.</p>
             </article>
             <article class="services-card">
-                <img src="./image/boda.jpg" alt="">
-                <h3>Wedding</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
+                <img class="services-card-img" src="./image/boda.jpg" alt="">
+                <h3 class="services-card-title">Wedding</h3>
+                <p class="services-card-desc">In the new era of technology we look in the future with certainty for life.</p>
             </article>
             <article class="services-card">
-                <img src="./image/reunion.jpg" alt="">
-                <h3>Events</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
+                <img class="services-card-img" src="./image/reunion.jpg" alt="">
+                <h3 class="services-card-title">Events</h3>
+                <p class="services-card-desc">In the new era of technology we look in the future with certainty for life.</p>
             </article>
         </div>
     </section>
 
     <section class="delivery">
         <div class="delivery-imgs">
-            <img src="./image/delivery-chef.jpg" alt="" class="delivery-img">
-            <img src="./image/delivery-mariscos.jpg" alt="" class="delivery-img">
-            <img src="./image/delivery-barbacoa.jpg" alt="" class="delivery-img">
+            <img class="delivery-img" src="./image/delivery-chef.jpg" alt="">
+            <img class="delivery-img" src="./image/delivery-curry.jpg" alt="">
+            <img class="delivery-img" src="./image/delivery-barbacoa.jpg" alt="">
         </div>
         <div class="delivery-info">
             <h2 class="delivery-title">Fastest Food Delivery in City</h2>
@@ -155,6 +159,7 @@
     </section>
     
     <!-- cambiar las imagenes de circulo a cuadradas-->
+
     <section class="opinions">
         <h2 class="opinions-title">What Our Customers Say</h2>
         <div class="opinions-cards">
@@ -162,9 +167,27 @@
                 <h3 class="opinions-card-title">“The best restaurant”</h3>
                 <p class="opinions-card-desc">Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</p>
                 <div class="opinions-card-author">
-                    <img class="opinions-card-author-img" src="./image/customer1.jpg" alt="">
+                    <img class="opinions-card-author-img" src="./image/opinions-1.png" alt="">
                     <p class="opinions-card-author-name">Sophire Robson</p>
                     <p class="opinions-card-author-city">Los Angeles, CA</p>
+                </div>
+            </article>
+            <article class="opinions-card">
+                <h3 class="opinions-card-title">“Simply delicious”</h3>
+                <p class="opinions-card-desc">Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</p>
+                <div class="opinions-card-author">
+                    <img class="opinions-card-author-img" src="./image/opinions-2.png" alt="">
+                    <p class="opinions-card-author-name">Matt Cannon</p>
+                    <p class="opinions-card-author-city">San Diego, CA</p>
+                </div>
+            </article>
+            <article class="opinions-card">
+                <h3 class="opinions-card-title">“One of a kind restaurant”</h3>
+                <p class="opinions-card-desc">The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</p>
+                <div class="opinions-card-author">
+                    <img class="opinions-card-author-img" src="./image/opinions-3.png" alt="">
+                    <p class="opinions-card-author-name">Andy Smith</p>
+                    <p class="opinions-card-author-city">San Francisco, CA</p>
                 </div>
             </article>
             <article class="opinions-card">
@@ -187,86 +210,100 @@
             </article>
         </div>         
     </section>
-    <section class="blog-articles">
-        <h2 class="blog-articles-title">Our Blog & Articles</h2>
-        <div class="blog-card">
-            <img src="./image/blog-hamburguesa.jpg" alt="">
-            <time>January 3, 2023</time>
-            <h3>The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
-            <p>Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
+
+    <section class="blog">
+        <div class="blog-header">
+            <h2 class="blog-title">Our Blog & Articles</h2>
+            <button class="blog-button">Read All Articles</button>
         </div>
-        <div class="blog-article-cards">
-            <div class="blog-articles-cards-top">
-                <article>
-                    <img src="./image/blog-papas.jpg" alt="">
-                    <time>January 3, 2023</time>
-                    <h3>The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
-                </article>
-                <article>
-                    <img src="./image/blog-cupcakes.jpg" alt="">
-                    <time>January 3, 2023</time>
-                    <h3>7 delicious cheesecake recipes you can prepare</h3>
-                </article>
-            </div>
-            <div class="blog-articles-cards-bottom">
-                <article>
-                    <img src="./image/blog-pollo.jpg" alt="">
-                    <time>January 3, 2023</time>
-                    <h3>How to prepare delicious chicken tenders</h3>
-                </article>
-                <article>
-                    <img src="./image/blog-pizza.jpg" alt="">
-                    <time>January 3, 2023</time>
-                    <h3>5 great pizza restaurants you should visit this city</h3>
-                </article>
-            </div>
+        <div class="blog-articles">
+            <article class="blog-article">
+                <img src="./image/blog-hamburguesa.jpg" alt="" class="blog-article-img">
+                <time datetime="" class="blog-article-date">January 3, 2023</time>
+                <h3 class="blog-article-title">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
+                <p class="blog-article-desc">Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
+            </article>
+            <article class="blog-article">
+                <img src="./image/blog-papas.jpg" alt="" class="blog-article-img">
+                <time datetime="" class="blog-article-date">January 3, 2023</time>
+                <h3 class="blog-article-title">How to prepare the perfect french fries in an air fryer</h3>
+            </article>
+            <article class="blog-article">
+                <img src="./image/blog-cupcakes.jpg" alt="" class="blog-article-img">
+                <time datetime="" class="blog-article-date">January 3, 2023</time>
+                <h3 class="blog-article-title">7 delicious cheesecake recipes you can prepare</h3>
+            </article>
+            <article class="blog-article">
+                <img src="./image/blog-pollo.jpg" alt="" class="blog-article-img">
+                <time datetime="" class="blog-article-date">January 3, 2023</time>
+                <h3 class="blog-article-title">How to prepare delicious chicken tenders</h3>
+            </article>
+            <article class="blog-article">
+                <img src="./image/blog-pizza.jpg" alt="" class="blog-article-img">
+                <time datetime="" class="blog-article-date">January 3, 2023</time>
+                <h3 class="blog-article-title">5 great pizza restaurants you should visit this city</h3>
+            </article>
         </div>
     </section>
-
-
 </main>
+
 <footer class="footer">
     <div class="footer-info">
         <div class="footer-info-company">
-            <img class="logo" src="./image/japanese-food.svg" alt="">
-            <h1>Bistro Bliss</h1>
-            <p class="footer-info-company-desc"></p>
-        </div>
-        <div class="footer-info-pages">
-            <h3 class="footer-info-pages-title"></h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="footer-info-utility">
-            <h3></h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="footer-info-instagram">
-            <h3></h3>
-            <div>
-                <img src="./image/footer-huevo.jpg" alt="">
-                <img src="./image/footer-papas.jpg" alt="">
-                <img src="./image/footer-papas-comida.jpg" alt="">
-                <img src="./image/footer-pancake.jpg" alt="">
+            <div class="logo">
+                <img class="logo" src="./image/logo-japanese-food.svg" alt="">
+                <h1>Bistro Bliss</h1>
+                <p class="footer-info-company-desc">In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+            <div class="footer-info-pages">
+                <h3 class="footer-info-pages-title">Pages</h3>
+                <ul class="footer-info-pages-menu">
+                    <li class="footer-info-pages-menu-item">Home</li>
+                    <li class="footer-info-pages-menu-item">About</li>
+                    <li class="footer-info-pages-menu-item">Menu</li>
+                    <li class="footer-info-pages-menu-item">Princing</li>
+                    <li class="footer-info-pages-menu-item">Blog</li>
+                    <li class="footer-info-pages-menu-item">Contact</li>
+                    <li class="footer-info-pages-menu-item">Delivery</li>
+                </ul>
+            </div>
+            <div class="footer-info-utility">
+                <h3 class="footer-info-utility-title">Utility Pages</h3>
+                <ul class="footer-info-utilitypages-menu">
+                    <li class="footer-info-utility-menu-item">Start Here</li>
+                    <li class="footer-info-utility-menu-item">Styleguide</li>
+                    <li class="footer-info-utility-menu-item">Password Protected</li>
+                    <li class="footer-info-utility-menu-item">404 Not Found</li>
+                    <li class="footer-info-utility-menu-item">Licenses</li>
+                    <li class="footer-info-utility-menu-item">Changelog</li>
+                    <li class="footer-info-utility-menu-item">View More</li>
+                </ul>
+            </div>
+            <div class="footer-info-instagram">
+                <img src="./image/footer-huevo.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-papa.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-papa-cajun.jpg" alt="" class="footer-info-instagram-img">
+                <img src="./image/footer-pancake.jpg" alt="" class="footer-info-instagram-img">
+            </div>
+            <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
         </div>
     </div>
-    <p></p>
 </footer>
 
 <!-- asi es un comentario en HTML-->
