@@ -1,0 +1,57 @@
+
+.bg-dark-gray{
+    background-color: #474747;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #474747;
+    color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.top-bar a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-bar-social-menu{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.top-bar-contact{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 30px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-list a{
+    color: #2c2f24;
+}
