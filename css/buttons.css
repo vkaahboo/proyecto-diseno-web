@@ -1,5 +1,17 @@
 .button{
     padding: 12px 24px;
     border-radius: 118px;
-    border: 1.5px solid  #2c2f24;
+    border: 2px solid  #2c2f24;
+    background-color: transparent;
 }
+
+.button-xl{
+    padding: 20px 32px;
+}
+
+.button-red{
+    border: 1.5px solid #ad343e;
+    background-color: #ad343e;
+    color: #fff;
+}
+
