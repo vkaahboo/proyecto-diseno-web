@@ -1,0 +1,11 @@
+:root{
+    --color-primary: #AD343E;
+    --color-secondary: #182226;
+    --color-tertiary: #F9F9F7;
+    --color-light-gray: #BCBCBC;
+    --color-dark-gray: #474747;
+    --color-neutral-gray: #2C2F24;
+
+    --font-text: 'DM Sans', sans-serif;
+    --font-title: 'Playfair Display', sans-serif;
+}
