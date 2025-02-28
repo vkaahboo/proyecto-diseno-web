@@ -1,3 +1,8 @@
 body{
     background-color: #f9f9f7;
 }
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
