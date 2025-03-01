@@ -13,6 +13,7 @@
 @import "./elements/about-us.css";
 @import "./elements/service.css";
 @import "./elements/delivery.css";
+@import "./elements/opinions.css";
 
 /* Components */
 @import "./components/buttons.css";

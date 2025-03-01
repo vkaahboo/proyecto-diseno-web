@@ -1,0 +1,53 @@
+.opinions{
+    padding-block: 100px;
+}
+
+.opinions-title{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 500;
+    margin-block-end: 64px;
+}
+
+.opinions-cards{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.opinions-card{
+    background-color: var(--color-tertiary);
+    border-radius: 12px;
+    padding: 48px;
+}
+
+.opinions-card-title{
+    color: var(--Primary, #AD343E);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-block-end: 24px;
+}
+
+.opinions-card-desc{
+    font-size: 18px;
+}
+
+.opinions-card-desc::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: var(--color-light-gray);
+    margin-block: 32px;
+}
+
+.opinions-card-author-img{
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+.opinions-card-author{
+    display: flex;
+   align-items: center;
+   gap: 32px;
+}
