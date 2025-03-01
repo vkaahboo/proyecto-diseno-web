@@ -10,11 +10,28 @@
     padding: 9px 0;
 }
 
+.top-bar-contact-phone::before{
+    content: url(../../image/phone.svg);
+    height: 100%;
+    aspect-ratio: 1;
+}
+.top-bar-contact-mail::before{
+    content: url(../../image/mail.svg);
+    height: 100%;
+    aspect-ratio: 1;
+}
+.top-bar-contact-phone, .top-bar-contact-mail{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .top-bar a{
     color: var(--color-tertiary);
     display: flex;
     align-items: center;
     gap: 8px;
+    text-decoration: none;
 }
 
 .top-bar-social-menu{
