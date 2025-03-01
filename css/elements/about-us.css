@@ -1,0 +1,90 @@
+.about-us{
+    display: flex;
+    align-items: center;
+    padding-block: 120px;
+}
+
+.about-us > div{
+    width: 50%;
+}
+
+.about-us-info{
+    position: relative;
+}
+
+.about-us-info-box{
+    position: absolute;
+    /* luis pone -50% pero nose si es por mi pantalla
+    que no me da la posicion en caja de imagen, revisar...*/
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    bottom: -5%;
+    right: 0;
+    max-width: 411px;
+    width: 100%;
+    padding: 50px;
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+    border-radius: 12px;
+}
+
+.about-us-info-box-phone::before{
+    content: url(../../image/phone.svg);
+    height: 100%;
+    aspect-ratio: 1;
+}
+.about-us-info-box-mail::before{
+    content: url(../../image/mail.svg);
+    height: 100%;
+    aspect-ratio: 1;
+}
+.about-us-info-box-address::before{
+    content: url(../../image/location-marker.svg);
+    height: 100%;
+    aspect-ratio: 1;
+}
+.about-us-info-box-phone, .about-us-info-box-mail,
+.about-us-info-box-address{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-us-info-box-title{
+    margin-block-end: 20px;
+    font-family: var(--font-text);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+}
+
+.about-us-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-inline-start: 90px;
+}
+
+.about-us-title{
+    font-family: var(--font-title);
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.about-us-desc-main{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155%;
+}
+
+.about-us-desc{
+    color: var(--color-neutral-light);
+}
+
+.about-us-link{
+    text-decoration: none;
+    width: fit-content;
+    color : var(--color-secondary);
+}

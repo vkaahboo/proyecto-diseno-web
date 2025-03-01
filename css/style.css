@@ -10,6 +10,7 @@
 @import "./elements/header.css";
 @import "./elements/hero-banner.css";
 @import "./elements/our-menu.css";
+@import "./elements/about-us.css";
 
 /* Components */
 @import "./components/buttons.css";
