@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Pagina Recetas</title>
 </head>
 <body>
     
-<header class="header">
+    <header class="header">
         <div class="bg-dark-gray">
-            <div class="top-bar"> 
+            <div class="top-bar container"> 
                 <div class="top-bar-contact">
-                    <a href="tel:123456789">Phone (414) 857 - 0107</a>
-                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                    <a class="top-bar-contact-phone" href="tel:123456789">Phone (414) 857 - 0107</a>
+                    <a class="top-bar-contact-mail" href="mailto:mail@mail.com">mail@mail.com</a>
                 </div>
                 <nav class="top-bar-social">
                     <ul class="top-bar-social-menu">
@@ -42,7 +45,7 @@
             </div>
         </div>
     
-        <div class="main-menu">
+        <div class="main-menu container">
             <div class="logo">
                 <img class="logo" src="./image/logo-japanese-food.svg" alt="">
                 <h1>Bistro Bliss</h1>
@@ -65,16 +68,15 @@
             </nav>
             <button class="button">Book a table</button>
         </div>
-</header>
+    </header>
 
-<main>
+<main class="bg-white">
     <section class="blog-hero-banner">
         <h1 class="blog-hero-banner-title">The secret tips & tricks to prepare a perfect strawberry cream cheescake</h1>
-        <img class="blog-hero-banner-img" src="./image/blog-hero-banner.jpg" alt="Trozo de tarta de queso con trozos de frambuesa">
+        <img class="blog-hero-banner-img" src="./image/blog-hero-banner.jpg" alt="Trozo de tarta de queso con trozos de frambuesa">      
     </section>
 
-    <section class="ingredients">
-
+    <section class="ingredients main-blog">
         <h2 class="ingredients-title">Ingredients</h2>
         <div class="ingredients-crust">
             <h3 class="ingredients-crust-title">For the crust</h3>
@@ -124,7 +126,6 @@
     <section class="articles">
         <h2 class="articles-title"></h2>
         <p class="article-desc"></p>
-
         <div class="articles-cards">
             <article class="article-card">
                 <img src="./image/article-sushi.jpg" alt="un chef preparando un plato de sushi" class="article-card-img">

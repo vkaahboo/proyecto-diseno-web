@@ -15,6 +15,9 @@
 @import "./elements/delivery.css";
 @import "./elements/opinions.css";
 @import "./elements/blog.css";
+@import "./elements/footer.css";
+@import "./elements/blog/blog-hero.css";
+@import "./elements/blog/blog-article.css";
 
 /* Components */
 @import "./components/buttons.css";
