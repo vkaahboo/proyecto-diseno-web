@@ -18,6 +18,7 @@
 @import "./elements/footer.css";
 @import "./elements/blog/blog-hero.css";
 @import "./elements/blog/blog-article.css";
+@import "./elements/blog/blog-ingredients.css";
 
 /* Components */
 @import "./components/buttons.css";

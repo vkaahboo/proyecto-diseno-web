@@ -1,0 +1,92 @@
+.ingredients{
+    display: flex;
+}
+
+.ingredients-list{
+    flex-direction: column;
+}
+
+.ingredients-instructions{
+    padding: 0 50px;
+}
+
+.ingredients-title{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.ingredients-list-title{
+    font-family: var(--font-text);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+    margin: 50px;
+}
+
+.ingredients-instructions-title{
+    font-family: var(--font-text);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: -0.72px;
+    margin-bottom: 20px;
+}
+
+.ingredients-instructions{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ingredients-instructions-list li{
+    list-style: decimal;
+}
+
+.ingredients-instructions-desc{
+    margin-bottom: 20px;
+}
+
+.ingredients-instructions-img-main{
+    margin-block: 48px;
+}
+
+.ingredients-instructions-img{
+    margin-top: 48px;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary);
+}
+
+label{
+    font-family: var(--font-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    padding-left: 20px;
+}
+
+input[type="checkbox"]::after{
+    content: '';
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../../image/check-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+input[type="checkbox"]:checked{
+    background-color: var(--color-primary);
+}
+
+input[type="checkbox"]:checked::after{
+    display: block;
+}
